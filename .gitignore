@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.claude/settings.local.json
+graphify-out/
+.idea/
+.vscode/
+*.log
+docs/kickstart/
