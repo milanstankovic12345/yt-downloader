@@ -2,9 +2,14 @@
 __pycache__/
 *.pyc
 .pytest_cache/
-.claude/settings.local.json
 graphify-out/
 .idea/
 .vscode/
 *.log
-docs/kickstart/
+
+# Dev-only, kept locally
+.claude/
+CLAUDE.md
+docs/
+tests/
+requirements-dev.txt

@@ -9,6 +9,13 @@ Playlists are supported.
 - [ffmpeg](https://ffmpeg.org/) on `PATH` (MP3/MP4 merging and audio preparation)
 - Optional: NVIDIA GPU for faster transcription (CUDA libraries are installed via pip; falls back to CPU automatically)
 
+## Get it on another PC
+```
+git clone https://github.com/milanstankovic12345/yt-downloader.git
+cd yt-downloader
+```
+No git? Use **Code -> Download ZIP** on the GitHub page and unzip it. Install Python 3.10+ and ffmpeg first.
+
 ## Run
 ```
 run.bat
@@ -19,15 +26,6 @@ python -m venv .venv
 .venv\Scripts\python -m pip install -r requirements.txt
 .venv\Scripts\python main.py
 ```
-
-## Tests
-```
-.venv\Scripts\python -m pip install -r requirements-dev.txt
-.venv\Scripts\python -m pytest
-```
-
-## Docs
-See `docs/` (PRD, tech stack, blueprint, task list).
 
 ## Disclaimer
 For personal use only. Respect the terms of service of the sites you download from and the
